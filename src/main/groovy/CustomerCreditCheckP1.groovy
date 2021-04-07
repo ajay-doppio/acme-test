@@ -9,5 +9,6 @@ class CustomerCreditCheckP1 extends ExtendM3Trigger {
 
   void main() {
     session.parameters.put("creditLimit", interactive.display.fields.get("WRCRLM"))
+    //asdasdas
   }
 }
